@@ -4,39 +4,36 @@
 </p>
 
 <h1>Description</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+Create two virtual machines running Windows 10 and Linux. Work with the Azure Network Security Group (firewalls) along with using Wireshark (a protocol analyzer) to monitor any traffic coming through the virtual machine and other command line tools.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+- Wireshark
+- Command line
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2022
-- Windows 10 (21H2)
+- Linux
+- Windows 10
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create a resource group in Azure Containing both VMs.
+- log into VM1 using remote desktop.
+- Download Wireshark on VM1.
+- Add an inbound rule to VM2 that allows\denys any traffic.
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="80%" height="80%" alt="1" src="https://github.com/LisetteTrejo/Azure-Compute-and-Networking/assets/136425839/932d4c68-6a21-48df-bfec-376f9f16bdd6">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 1, Create a resource group containing both of the Virtual Machines, "VM1" running Windows 10 and "VM2" running Linux.
 </p>
 <br />
 
